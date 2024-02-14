@@ -1,0 +1,7 @@
+## Dependencies that I will most likely need:
+- Handle HTTP requests: OkHttp
+- Parse HTML content: Jsoup
+- Possibly automating web browser interactions: Selenium
+    * Will need to download the gecko webdriver and add it to your PATH
+## 
+    

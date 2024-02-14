@@ -22,6 +22,18 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.1-jre'
+
+    // Add OkHttp dependency for HTTP requests
+    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+    
+    // Add Jsoup dependency for HTML parsing
+    implementation 'org.jsoup:jsoup:1.13.1'
+
+    // Selenium WebDriver dependency for Firefox
+    implementation 'org.seleniumhq.selenium:selenium-firefox-driver:3.141.59'
+
+    // Also include the selenium-java dependency to have all necessary Selenium components
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
 }
 
 application {
